@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #272727;
+}
+nav{
+  position: fixed;
+  width: 200px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  background-color: #fff;
+  z-index: 1000;
+  transition: all ease-in-out 500ms;
+  -webkit-transition: all ease-in-out 500ms;
+}
+.img img{
+  width: 100px;
+  margin: 0 auto; /* NOTE: it gets the image centred */
+  display: block;
+  padding-top: 30px;
+}
+.drawer img{
+  position: fixed;
+  background-color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top:0px;
+  left: 0px;
+  width: 30px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  z-index: 1050;
+  transition: all ease-in-out 500ms;
+  -webkit-transition: all ease-in-out 500ms;
+}
+.drawer img:hover{
+  opacity: 0.8;
+}
+.menu ul{
+  padding-left: 20px;
+  padding-top: 40px;
+}
+.menu ul li{
+  list-style: none;
+  padding: 4px 0px;
+}
+.menu ul li a{
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: arial;
+  font-weight: 300;
+  color: #272727;
+}
+.cases{
+  width: 100%;
+  float: left;
+}
+.setup{
+  background-color: #fff;
+  width: 220px;
+  height: 220px;
+  margin-top: 50px;
+  margin-left: 250px;
+  border-radius: 6px;
+  float: left;
+  background-image: url(img4.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
